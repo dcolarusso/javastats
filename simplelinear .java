@@ -35,7 +35,6 @@ public static double sum(double[] X){
 	return sum;
 }
 public static double mean(double[] X){ 
-	lengthCheck(X);  
 	double sum = X.sum(); 
 	double mean = sum / X.length;
 	return mean; 
@@ -51,7 +50,7 @@ public static double[] cleanVariables(X){
 public double[] getX(X){
 	return X;}
 
-publid double getY(Y){
+publid double[] getY(Y){
 	return Y;}
 
 double sum_X, sum_Y, sum_X2 
@@ -110,4 +109,3 @@ public static void summary(){
 	System.out.println('The sum of the errors is ') + sumError;}
 }
 
-class logisticRegression extends linearRegression{}
